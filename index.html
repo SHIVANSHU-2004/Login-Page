@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Glassmorphism Login Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <h1>Login Form</h1>
+            <div class="inputs">
+                <input type="text" placeholder="Username" required>
+                <label for=""><i class="fa-solid fa-user"></i></label>
+            </div>
+            <div class="inputs">
+                <input type="password" placeholder="Password" required>
+                <label for=""><i class="fa-solid fa-lock"></i></label>
+            </div>
+            <div class="remfor">
+                <div class="remember">
+                    <input type="checkbox">
+                    <label for="">Remember me</label>
+                </div>
+                <div class="forget">
+                    <a href="./index1.html">Generate Password?
+                </div>
+            </a>
+            </div>
+            <button onclick="showAlert()">Login </button>
+
+
+            <p><span><a href="./Signuppage/index2.html">Sign up</a> </span> 
+<script>
+
+    function showAlert() {
+    const username = document.getElementById('Username');
+    const password = document.getElementById('Password');
+
+    if (username === " " || password === " ") {
+        alert("Please enter both a username and password.");
+    } else {
+        // Replace this with actual login logic if necessary
+        alert("Successfully logged in!");
+    }
+}
+
+</script>
+
+           
+</body>
+</html>
